@@ -1,0 +1,1 @@
+Select distinct c.name from customers c where c.id not in (Select customer_id from orders)
